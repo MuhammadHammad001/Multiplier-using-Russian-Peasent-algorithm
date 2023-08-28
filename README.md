@@ -1,5 +1,8 @@
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # Multiplier-using-Russian-Peasent-algorithm
 Data path and Controller design in SystemVerilog for a multiplier using Russian Peasant algorithm
+
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -33,3 +36,11 @@ First of all, let's start with the basics. We will first understand the working 
 Russian peasant multiplication is an interesting way to multiply numbers that uses a process of halving and doubling. Like standard multiplication and division, Russian peasant multiplication is an algorithm; however, it allows you to multiply any two whole numbers using only multiplication and division by 2.
 More on this algorithm is available at:<br>
   - [How to Multiply Using the Russian Peasant Method](https://www.wikihow.com/Multiply-Using-the-Russian-Peasant-Method)
+
+
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://www.linkedin.com/in/muhammad-hammad-bashir/
