@@ -1,8 +1,19 @@
+//////////////////////////////////////////////////////////////////////
+//                                                                  //
+//  Author: Muhammad Hammad Bashir                                  //
+//  Description:                                                    //
+//          This file controls the whole workflow of the Controller.//
+//          Please refer to the State Transition(STG) diagram at the//
+//          available github for further understanding.             //
+//                                                                  //
+//////////////////////////////////////////////////////////////////////
+
 module Controller(
-    input logic clk,rst,start,
-    input logic x_flag,x_odd_flag,
-    output logic x_sel,y_sel,x_ld,y_ld,add_en,out_en
+    input logic   clk,rst,start,
+    input logic   x_flag,x_odd_flag,
+    output logic  x_sel,y_sel,x_ld,y_ld,add_en,out_en
     );
+    //States -- NS -> Next state  | CS -> Current state
     logic [2:0]NS,CS;
     parameter S0=3'b000;
     parameter S1=3'b001;

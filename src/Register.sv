@@ -1,3 +1,11 @@
+//////////////////////////////////////////////////////////////////////
+//                                                                  //
+//  Author: Muhammad Hammad Bashir                                  //
+//  Description:                                                    //
+//          This is a simple 32 bit Register                        //
+//                                                                  //
+//////////////////////////////////////////////////////////////////////
+
 module Register(
     input logic [31:0]value1,
     input logic clk,rst,

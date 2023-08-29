@@ -1,3 +1,11 @@
+//////////////////////////////////////////////////////////////////////
+//                                                                  //
+//  Author: Muhammad Hammad Bashir                                  //
+//  Description:                                                    //
+//          Only divide the X by 2 when X is an odd number.         //
+//                                                                  //
+//////////////////////////////////////////////////////////////////////
+
 module xoddcomparator(
     input logic [31:0]x,
     output logic out
