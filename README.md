@@ -23,7 +23,25 @@ First of all, let's start with the basics. We will first understand the working 
 Russian peasant multiplication is an interesting way to multiply numbers that uses a process of halving and doubling. Like standard multiplication and division, Russian peasant multiplication is an algorithm; however, it allows you to multiply any two whole numbers using only multiplication and division by 2.
 More on this algorithm is available at:<br>
   - [How to Multiply Using the Russian Peasant Method](https://www.wikihow.com/Multiply-Using-the-Russian-Peasant-Method)
-### 
+
+### Datapath Design for the Multiplier
+|  **`Signal`**  | **`Direction`** | **`Path`** |
+|:--------------:|:---------------:|:----------:|
+|   **[15:0]X**  |      input      |    User    |
+|   **[15:0]X**  |      input      |    User    |
+|     **clk**    |      input      |    User    |
+|     **rst**    |      input      |    User    |
+|    **x_ld**    |      input      | Controller |
+|    **y_ld**    |      input      | Controller |
+|    **x_sel**   |      input      | Controller |
+|    **y_sel**   |      input      | Controller |
+|   **add_en**   |      input      | Controller |
+|   **out_en**   |      input      | Controller |
+| **x_odd_flag** |      output     | Controller |
+|   **x_flag**   |      output     | Controller |
+|    **Mult**    |      output     |    User    |
+
+<img src="others/imgs/datapath design.drawio.png"> 
 
 
 
