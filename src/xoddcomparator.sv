@@ -2,7 +2,8 @@
 //                                                                  //
 //  Author: Muhammad Hammad Bashir                                  //
 //  Description:                                                    //
-//          Only divide the X by 2 when X is an odd number.         //
+//          Only add  the number to the final result when it is     // 
+//          divisible by 2 when X is an odd number.                 //
 //                                                                  //
 //////////////////////////////////////////////////////////////////////
 
