@@ -17,6 +17,8 @@ For compilation and for viewing the waveforms, I have used **ModelSim**. You may
   ```
    cd Multiplier-using-Russian-Peasent-algorithm
   ```
+3. Create a new project and add all the source files and the testbenches that you need(for now, I am only adding the testbench for the topmodule). Then compile all the files and simulate to observe the results.
+
 ## Getting Started
 First of all, let's start with the basics. We will first understand the working of the Russian Peasent algorithm and then move on to the Systemverilog datapath and controller design.
 ### Overview of Peasent Multiplication
@@ -48,6 +50,11 @@ Please refer to the `others/imgs` if image is blur.
 
 <img src="others/imgs/controller.drawio.png"  width="950"> 
 
+
+## Results
+Using the testbench `tbMultiplier`, I multiplied multiple numbers. By observing the waveform, we see that it takes maximum of 16 cycles to multiply two numbers of size of 16 bits each. Please refer to the following waveform, in which I multiply 45 with 40 which takes 16 cycles to produce the final result.
+
+<img src="others/imgs/result40x45.png"  width="950"> 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
