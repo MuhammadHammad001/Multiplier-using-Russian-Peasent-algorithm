@@ -52,7 +52,7 @@ Please refer to the `others/imgs` if image is blur.
 
 
 ## Results
-Using the testbench `tbMultiplier`, I multiplied multiple numbers. By observing the waveform, we see that it takes maximum of 16 cycles to multiply two numbers of size of 16 bits each. Please refer to the following waveform, in which I multiply 45 with 40 which takes 16 cycles to produce the final result.
+Using the testbench `tbMultiplier`, we multiplied multiple numbers. By observing the waveform, we see that it takes maximum of **`16 cycles` to multiply two numbers of size of 16 bits each**. Please refer to the following waveform, in which we multiplied 45 with 40 which takes **`8 cycles`** to produce the final result.
 
 <img src="others/imgs/result40x45.png"  width="950"> 
 
