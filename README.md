@@ -41,8 +41,12 @@ More on this algorithm is available at:<br>
 |   **x_flag**   |      output     | Controller |
 |    **Mult**    |      output     |    User    |
 
-<img src="others/imgs/datapath design.drawio.png"> 
+<img src="others/imgs/datapath design.drawio.png" width="950"> 
 
+### State Transition Graph for the Controller:
+Please refer to the `others/imgs` if image is blur.
+
+<img src="others/imgs/controller.drawio.png"  width="950"> 
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
